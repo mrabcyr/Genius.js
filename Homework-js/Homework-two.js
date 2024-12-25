@@ -273,3 +273,138 @@ switch (value) {
 
     default: alert(`Товару ${value} немає в наявності`);
 } */
+
+
+
+
+
+
+
+//////////---------- HOMEWORK TWO ----------//////////
+
+// Якщо змінна більше нуля - виведіть true, менше - false
+//Перевірте це на варіантах  1, 0, -3.
+
+/* let value = -3;
+if (value >= 0) {
+    console.log(true);
+} else if (value < 0) {
+    console.log(false);
+}*/
+
+// Якщо змінна ="test" - виведіть true,
+//Перевірте це на варіантах  'test', "qwerty", true
+
+/* let a = "qwerty";
+if (a === "test") {
+    console.log(true);
+} else {
+    console.log(false);
+} */
+
+// Якщо змінна більше 10 -  відніміть 5,
+//менше - додайте 5, результат виведіть в консоль
+//Перевірте це на варіантах  1, 10, 13.
+
+/* let value = prompt("Введіть цифру від 0 до 10");
+let num = parseInt(value);
+
+if (num >= 10) {
+    console.log(num - 5);
+} else if (num < 10) {
+    console.log(num + 5);
+} */
+
+//Зробіть сервіс який отримує число від 1 до 12
+// виведіть місяць який дорівнює числу
+
+/*
+const value = prompt("Введіть номер місяця");
+const monthNumber = parseInt(value);
+let month;
+
+switch (monthNumber) {
+    case 1:
+    month = "січень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 2:
+    month = "лютий";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 3:
+    month = "березень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 4:
+    month = "квітень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 5:
+    month = "травень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 6:
+    month = "червень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 7:
+    month = "липень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 8:
+    month = "серпень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 9:
+    month = "вересень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 10:
+    month = "жовтень";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 11:
+    month = "листопад";
+    alert(`${value} це ${month}`);
+    break;
+
+    case 12:
+    month = "грудень";
+    alert(`${value} це ${month}`);
+    break;
+
+    default: 
+    month = "невірний номер місяця";
+    alert(`${value} це ${month}`);
+    break;
+}
+*/
+
+//Зробіть сервіс який отримує тризначне число
+//Поверніть користувачу сумму цих чисел
+
+/* const value = prompt("Введіть тризначне число");
+const newValue = parseInt(value);
+
+if (value >= 100 && value <= 999) {
+    const hundreds = Math.floor(newValue / 100);
+    const tens = Math.floor((newValue % 100) / 10);
+    const units = Math.floor(newValue % 10);
+
+    const sum = hundreds + tens + units;
+
+    alert(`Сума цифр числа ${newValue} дорівнює ${sum}`);
+} else {
+    alert("Введіть коректне тризначне число від 100 до 999");
+} */
