@@ -235,15 +235,82 @@ console.log(roundedSumm); */
 // У вас є масив об’єктів fruts, і в кожному з них є name
 // Напишіть код, який перетворює їх в масив імен.
 
-// const fruts = [
-//   { id: 0, name: "Apple" },
-//   { id: 1, name: "Tomat" },
-//   { id: 2, name: "Cherry" },
-//   { id: 3, name: "Orange" },
-// ];
+/* const fruits = [
+{ id: 0, name: "Apple" },
+{ id: 1, name: "Tomat" },
+{ id: 2, name: "Cherry" },
+{ id: 3, name: "Orange" },
+];
+
+const fruitNames = fruits.map(fruit => fruit.name);
+console.log(fruitNames); */
+
+/*const fruits = [
+{ id: 0, name: "Apple" },
+{ id: 1, name: "Tomato" },
+{ id: 2, name: "Cherry" },
+{ id: 3, name: "Orange" },
+];
+
+const fruitNames = fruits.map(fruit => fruit.name);
+console.log(fruitNames); */
+
+/* const fruits = [
+{ id: 0, name: "Apple" },
+{ id: 1, name: "Tomato" },
+{ id: 2, name: "Cherry" },
+{ id: 3, name: "Orange"},
+];
+
+const fruitNames = fruits.map(fruit => fruit.name);
+console.log(fruitNames); */
+
+/* const fruits = [
+{ id: 0, name: "Apple"},
+{ id: 1, name: "Tomato"},
+{ id: 2, name: "Cherry"},
+{ id: 3, name: "Orange"},
+];
+
+const fruitNames = fruits.map(fruit => fruit.name);
+console.log(fruitNames); */
+
+/* const fruits = [
+{ id: 0, name: "Apple"},
+{ id: 1, name: "Tomato"},
+{ id: 2, name: "Cherry"},
+{ id: 3, name: "Orange"},
+];
+
+const fruitNames = fruits.map(fruit => fruit.name);
+console.log(fruitNames); */
 
 //  -- 2 --
 //Виведіть парні числа від 2 до 10, використовуючи цикл for.
+
+/*for (let a = 2; a <= 10; a++) {
+    if (a % 2 === 0) {
+        console.log(a);
+    }
+}*/
+
+/*for (let a = 2; a <= 10; a++) {
+    if (a % 2 != 0) {
+        console.log(a);
+    }
+}*/
+
+/* for (let a = 2; a <= 20; a++) {
+    if (a % 2 === 0) {
+        console.log(a);
+    }
+} */
+
+/* for (let a = 6; a <= 30 && a > 0; a--) {
+    if (a % 3 === 0) {
+        console.log(a);
+    }
+} */
 
 //  -- 3 --
 //Замініть цикл "for" на "while"
@@ -251,11 +318,133 @@ console.log(roundedSumm); */
 //     console.lpg( `цифра ${i}!` );
 //   }
 
+/* let i = 0;
+
+while (i < 5) {
+    console.log(`цифра ${i}!`);
+    i++;
+}
+
+let i = 0;
+
+while (i < 5) {
+    console.log(`цифра ${i}!`);
+    i++;
+}
+
+let i = 0;
+
+while (i < 5) {
+    console.log(`цифра ${i}!`);
+    i++;
+} */
+
 //  -- 4 --
 //Напишіть цикл, який пропонує prompt ввести число більше за 100.
 //Якщо відвідувач введе менше число – попросити ввести ще раз, і так далі.
 //Цикл повинен запитувати число доти, доки відвідувач не введе число,
 // більше за 100, або не скасує ввід/введе порожній рядок.
+
+/* let value;
+
+while (true) {
+    value = prompt("Введіть число більше за 100");
+
+    if (value === null || value.trim() === "") {
+        console.log("Ввід скасовано або введено порожній рядок.");
+    break;
+    }
+
+    const number = Number(value);
+
+    if (!isNaN(number) && number > 100) {
+        console.log("Ви ввели число більше за 100: " + number);
+    break;
+    
+    } else {
+        alert("Будь ласка, введіть число більше за 100.");
+    }
+} */
+
+/* let value;
+
+while (true) {
+    value = prompt("Введіть число більше за 100");
+
+    if (value === null || value.trim() === "") {
+        console.log("Ввід скасовано або введено порожній рядок.");
+    break;
+    }
+
+    const number = Number(value);
+
+    if (!isNaN(number) && number > 100) {
+        console.log("Ви ввели число більше за 100: " + number);
+    break;
+    } else {
+        alert("Будь ласка, введіть число більше за 100.");
+    }
+} */
+
+/* let value; 
+
+while (true) {
+    value = prompt("Введіть число більше за 100");
+
+    if (value === null || value.trim() === "") {
+        console.log("Ввід скасовано або введено порожній рядок.");
+    break;
+    }
+
+    const number = Number(value);
+
+    if (!isNaN(number) && number > 100) {
+        console.log("Ви ввели число більше за 100: " + number);
+    break;
+    } else {
+        alert("Введіть число більше за 100.");
+    }
+} */
+
+/* let value;
+
+while (true) {
+    value = prompt("Введіть число більше за 100");
+
+    if (value === null || value.trim() === "") {
+        console.log("Ввід скасовано або введено порожній рядок.");
+    break;
+    }
+
+    const number = Number(value);
+
+    if (!isNaN(number) && number > 100) {
+        console.log("Ви ввели число більше за 100 " + number);
+    break;
+    } else {
+        alert("Введіть число більше за 100.");
+    }
+} */
+
+/* let value;
+
+while (true) {
+    value = prompt("Введіть число більше за 100");
+
+    if (value === null || value.trim() === "") {
+        console.log("Введеня було скасовано або було відправлено порожній рядок.");
+    break;
+    }
+
+    const number = Number(value);
+
+    if (!isNaN(number) && number > 100) {
+        console.log("Ви ввели число більше за 100 " + number);
+    break;
+    } else {
+        alert("Введіть число більше за 100");
+    }
+} */
 
 //  -- 5 --
 // Вирахуйте середній вік
@@ -267,3 +456,131 @@ console.log(roundedSumm); */
 //   { age: 20, name: "Катя" },
 // ];
 
+/* const kids = [
+    { age: 5, name: "Tom" },
+    { age: 7, name: "Kate" },
+    { age: 2, name: "David" },
+    { age: 1, name: "Julie" },
+    { age: 8, name: "John" },
+    { age: 3, name: "Anna" },
+    { age: 4, name: "Christian" }, 
+    { age: 6, name: "Emma" },
+];
+
+const kidAge = kids.map(kid => kid.age);
+
+const totalAge = kidAge.reduce((sum, age) => sum + age, 0);
+
+const averageAge = totalAge / kidAge.length;
+
+console.log(averageAge); */
+
+
+
+
+
+
+
+
+
+
+//  -- 1 --
+// У вас є масив об’єктів fruts, і в кожному з них є name
+// Напишіть код, який перетворює їх в масив імен.
+
+/* const fruits = [
+    {id: 0, name: "Apple"},
+    {id: 1, name: "Orange"},
+    {id: 2, name: "Tomato"},
+    {id: 3, name: "Mango"},
+]
+
+const fruitNames = fruits.map(fruit => fruit.name);
+
+console.log(fruitNames); */
+
+//  -- 2 --
+//Виведіть парні числа від 2 до 10, використовуючи цикл for.
+
+/* for (let a = 2; a <= 10; a++ ) {
+    if (a % 2 === 0) {
+        console.log(a);
+    }
+} */
+
+//  -- 3 --
+//Замініть цикл "for" на "while"
+// for (let i = 0; i < 5; i++) {
+//     console.lpg( `цифра ${i}!` );
+//   }
+
+/* let i = 0;
+
+while (i < 5) {
+    console.log(`цифра ${i}`);
+    i++
+} */
+
+//  -- 4 --
+//Напишіть цикл, який пропонує prompt ввести число більше за 100.
+//Якщо відвідувач введе менше число – попросити ввести ще раз, і так далі.
+//Цикл повинен запитувати число доти, доки відвідувач не введе число,
+// більше за 100, або не скасує ввід/введе порожній рядок.
+
+/* let value;
+
+while (true) {
+    value = prompt("Введіть число більше за 100");
+
+    if (value === null || value.trim() === "") {
+        console.log("Введено порожнє чи некоректне число або ввід скасовано");
+    break;
+    }
+
+    const number = Number(value);
+
+    if (!isNaN(number) && number > 100) {
+        console.log("Ви ввели число більше за 100 " + number);
+    break;
+    } else {
+        alert("Введіть число більше за 100")
+    }
+} */
+
+/* let value;
+
+while (true) {
+    value = prompt("Введіть число більше за 100");
+
+    if (value === null || value.trim() === "") {
+        console.log("Введеня було скасовано або було відправлено порожній рядок.");
+    break;
+    }
+
+    const number = Number(value);
+
+    if (!isNaN(number) && number > 100) {
+        console.log("Ви ввели число більше за 100 " + number);
+    break;
+    } else {
+        alert("Введіть число більше за 100");
+    }
+} */
+
+//  -- 5 --
+// Вирахуйте середній вік
+
+/* const girls = [
+{ age: 23, name: "Оля" },
+{ age: 29, name: "Аня" },
+{ age: 10, name: "Юля" },
+{ age: 20, name: "Катя" },
+];
+
+const girlAges = girls.map(girl => girl.age);
+
+totalAge = girlAges.reduce((summ, age) => summ + age, 0);
+
+averageAge = totalAge / girlAges.length;
+
+console.log(averageAge); */
